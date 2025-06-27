@@ -1,0 +1,36 @@
+ <link rel="stylesheet" type="text/css" href="./style.css">
+ 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="text-center text-dark mt-5">Login Form</h2>
+        {{!-- <div class="text-center mb-5 text-dark">Made with bootstrap</div> --}}
+        <div class="card my-5">
+
+          <form class="login-form card-body cardbody-color p-lg-5" action="/verify" method="post">
+
+            <div class="text-center">
+              <img src="/images/profile-banner.jpg" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
+                width="200px" alt="profile">
+            </div>
+            <h4 class="text-danger">{{msg}}</h4>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="Username" aria-describedby="emailHelp" placeholder="User Name" name="username">
+                <span id="usernameError" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" id="password" placeholder="password" name="password">
+            <span id="passwordWrong" class="text-danger"></span>
+            </div>
+            <div class="text-center"><input type="submit" class="submit" value="Login" id="submit"></div>
+            {{!-- <div id="emailHelp" class="form-text text-center mb-5 text-dark">Not
+              Registered? <a href="#" class="text-dark fw-bold"> Create an
+                Account</a>
+            </div> --}}
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  

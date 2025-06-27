@@ -1,0 +1,28 @@
+
+.btn-color{
+  background-color: #0e1c36;
+  color: #fff;
+  
+}
+
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+
+
+.cardbody-color{
+  background-color: #ebf2fa;
+}
+
+a{
+  text-decoration: none;
+}
+
+.submit{
+  font-size: 20px;
+  color: black;
+  border: 1px solid yellow;
+}
